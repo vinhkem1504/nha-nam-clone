@@ -1,0 +1,22 @@
+.login{
+    background: url("../images/headerbg.png") repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 4px #444;
+    margin: 10px auto;
+    padding: 30px;
+    width: 940px;
+    min-height: 400px;
+}
+
+.sign-up-facebook{
+    background: linear-gradient(#476fc2,#314f8e);
+    padding: 6px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+fieldset{
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}

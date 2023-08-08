@@ -1,0 +1,9 @@
+.register{
+    background: url("../images/headerbg.png") repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 4px #444;
+    margin: 10px auto;
+    padding: 30px;
+    width: 940px;
+    min-height: 400px;
+}
+

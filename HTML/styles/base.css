@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: url("../images/bg_pattern.jpg") repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: var(--color-medium-green);
+}
+
+:root{
+    --color-light-grey: #dfdfe0;
+    --color-medium-green: #016600;
+}
+
+.container{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    background: #00870a;
+    border: 1px solid #00870a;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+form p{
+    padding-top: 10px;
+}
+
+form label{
+    display: block;
+}
+
+form input[type = "text"], input[type = "date"], input[type = "password"]{
+    width: 200px;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bdc2c9;
+    color: #555;
+    font: 12px "Arial";
+    padding: 2px;
+}

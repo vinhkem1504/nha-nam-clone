@@ -1,0 +1,45 @@
+.title-product{
+    color: #000;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    width: 888px;
+}
+
+.title-product a{
+    text-decoration: none;
+    background: url("../images/lbcenter.png") no-repeat scroll center top;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: normal;
+    padding: 28px 10px 35px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(116,117,118,.5);
+    text-transform: uppercase;
+}
+
+.title-product a::before{
+    background: url("../images/lbleft.png") no-repeat scroll;
+    content: " ";
+    display: block;
+    height: 85px;
+    left: -32px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+    padding: 0;
+}
+
+.title-product a::after{
+    background: url("../images/lbright.png") no-repeat scroll;
+    content: " ";
+    display: block;
+    height: 85px;
+    position: absolute;
+    right: -32px;
+    top: 0;
+    padding: 0;
+    width: 32px;
+}
