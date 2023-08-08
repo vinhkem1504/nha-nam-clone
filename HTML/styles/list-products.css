@@ -1,0 +1,19 @@
+.products{
+    background: url("../images/book_bg.png") repeat-y scroll 0 0 rgba(0,0,0,0);
+    margin: 10px auto 0;
+    padding: 0 50px;
+    width: 1000px;
+    height: max-content;
+}
+
+.clearfix::before{
+    display: table;
+    content: " ";
+}
+
+.clearfix::after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+

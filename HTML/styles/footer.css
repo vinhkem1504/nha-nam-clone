@@ -1,0 +1,50 @@
+.footer{
+    background: url("../images/headerbg.png") repeat-x scroll 50% 0 rgba(0,0,0,0);
+    border-top: 8px solid rgba(216,216,216,.6);
+}
+
+.footer-menu .col{
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 280px
+}
+
+.footer-menu .col li{
+    background: url("../images/arricon.png") no-repeat scroll 0 center rgba(0,0,0,0);
+    border-bottom: 1px solid #c2c2c2;
+    padding: 10px 0 10px 30px;
+    display: block;
+}
+
+.footer-menu .col li a{
+    color: #0f5731;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-menu .social-btn{
+    float: right;
+    padding: 48px 0 0;
+}
+
+.footer-menu .social-btn a{
+    display: inline-block;
+    margin-right: 10px;
+    background: url("../images/shareicons2.png") no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+.footer .copyright{
+    text-align: center;
+    border-top: 4px solid rgba(216,216,216,.8);
+    color: #fff;
+    background: url("../images/menubg.png") repeat scroll 0 0 rgba(0,0,0,0);
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+.footer .copyright a{
+    color: #fff;
+}

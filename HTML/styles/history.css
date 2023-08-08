@@ -1,0 +1,38 @@
+.history{
+    background: url("../images/headerbg.png") repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 4px #444;
+    margin: 10px auto;
+    padding: 30px;
+    width: 940px;
+    min-height: 400px;
+}
+
+.check-order .form{
+    margin: 10px 0;
+}
+
+.check-order .form .text{
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Arial;
+    width: 350px;
+}
+
+.check-order .form .submit{
+    background: none repeat scroll 0 0 #00870a;
+    border: 1px solid #00870a;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.check-order table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.check-order table td, th{
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
